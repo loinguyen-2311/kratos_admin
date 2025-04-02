@@ -3,7 +3,7 @@ dsn: postgresql://neondb_owner:npg_ih1be8BLgMvV@ep-silent-shape-a1lez5aw-pooler.
 
 serve:
   admin:
-    base_url: https://kratos-admin.onrender.com
+    base_url: https://kratos-admin.onrender.com:4434
     # cors:
     #   enabled: true
 selfservice:

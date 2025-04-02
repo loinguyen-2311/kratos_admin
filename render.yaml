@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: kratos
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    buildCommand: npm install
+    startCommand: npm start

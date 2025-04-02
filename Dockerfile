@@ -6,6 +6,8 @@ COPY ./kratos.yml /etc/config/kratos.yml
 # Copy the identity schema file
 COPY ./identity.schema.json /etc/config/kratos/identity.schema.json
 
+EXPOSE 4434
+
 # Start the Kratos server
 CMD ["serve", "-c", "/etc/config/kratos.yml"]
 # CMD ["migrate", "sql", "-c", "/etc/config/kratos.yml", "-e", "--yes"]
